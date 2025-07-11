@@ -38,7 +38,8 @@ header nav h1 {
     font-weight: 800;
 }
 
-.header-div {
+.header-div 
+{
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -50,4 +51,47 @@ header nav h1 {
 
 .header-div h1 {
     font-size: 50px;
+}
+
+.para-secondary {
+    font-size: 12px;
+    color: gray;
+    margin: 0px;
+}
+
+.demo-preview-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 200px 300px;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ .users-statistics-box   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(79, 71, 225, 0.156);
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 35px 55px;
+}
+
+.stats-flex-box {
+    display: flex;
+    gap: 120px;
+}
+
+.stats-number {
+    margin: 0px;
+    color: #4E47FF;
 }
